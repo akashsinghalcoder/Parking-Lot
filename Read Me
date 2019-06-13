@@ -1,0 +1,15 @@
+So current assumptions for design
+1. There are three types of vehicles - bike, car, truck
+2. Bike can be parked in small space
+3. Car can be parked in compact space
+4. Bus can be parked in large space
+5. No vehicle will be parked in other space even if it is available
+6. Vehicle is identified by basic integer value right now
+7. Parking Space is also identified by basic integer value right now
+8. Two types of vehicles are differentiated inside logic only(For example bike can have its vehicleNumber =1 and truck can also have its vehicle number = 1. So to differentiate, we check the size of vehicle every time and have written logic accordingly)
+We have to know the available parking space.
+
+Class names
+Driver - someone like ticket provider who is exposed to client
+Client - which contains main class (edited) 
+Rest are self explanatory I guess
